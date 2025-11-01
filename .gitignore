@@ -1,0 +1,19 @@
+# Ignore WordPress core files and uploads if desired
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore XAMPP and system files
+xampp/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Ignore database dumps
+*.sql
+*.sql.gz
+
+# Ignore node and composer stuff (if used)
+node_modules/
+vendor/
